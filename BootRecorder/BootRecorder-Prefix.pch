@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'BootRecorder' target in the 'BootRecorder' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+
+// Enable 'NSLog()' only when debug
+#ifdef NS_BLOCK_ASSERTIONS
+#ifndef NSLog
+#define NSLog( m, args... )
+#endif
+#else
+#ifndef NSLog
+#define NSLog( m, args... ) NSLog( m, ##args )
+#endif
+#endif

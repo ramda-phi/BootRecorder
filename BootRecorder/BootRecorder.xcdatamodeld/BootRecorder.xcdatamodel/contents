@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Log" representedClassName="Log" syncable="YES">
+        <attribute name="dTimeWaking" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sPeriod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sReboot" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sShutDown" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sTimeWaking" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Log" positionX="160" positionY="192" width="128" height="135"/>
+    </elements>
+</model>
